@@ -1,0 +1,204 @@
+/*global styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+li,
+a,
+button {
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+li:hover {
+  background-color: #a92711;
+  padding: 0.5rem;
+}
+button {
+  padding: 2rem 6rem;
+  background-color: #fa6449;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+button:hover {
+  background-color: #a92711;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+/*header & hero section */
+
+.main-head {
+  color: white;
+  background-color: #ff684d;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+}
+#logo {
+  flex: 2 1 40rem;
+  font-family: "Architects Daughter", cursive;
+}
+
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(16, 0, 0, 0.886), transparent),
+    url("/posts/images/shawarma-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h3 {
+  padding: 4rem;
+}
+
+/*cards section*/
+.food {
+  background: linear-gradient(rgba(14, 0, 0, 0.8), rgba(14, 0, 0, 0.8)),
+    url("/posts/images/kebab-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.cards {
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0rem;
+  display: flex;
+  background-color: rgba(255, 253, 200, 0.1);
+  border-radius: 1rem;
+}
+.card {
+  flex: 1 1 25rem;
+  margin: 2rem 6rem;
+}
+.cards img {
+  height: 375px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+.cards h3 {
+  padding: 2rem;
+  font-weight: bold;
+}
+.card button {
+  padding: 1.6rem 4rem;
+}
+footer {
+  color: white;
+  background: rgb(16, 0, 0);
+  font-family: "Architects Daughter", cursive;
+}
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+}
+footer h5 {
+  flex: 5 1 40rem;
+}
+footer ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-wrapper img {
+  width: 4rem;
+}
+
+/*post-2 styles*/
+
+.hero-post-1 {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/posts/images/kebab-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  width: 90%;
+  margin: auto;
+  padding-top: 4rem;
+}
+.hololo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title h3 {
+  padding: 4rem 4rem 0rem 0rem;
+  flex: 2 1 40rem;
+}
+
+.img {
+  flex: 1 1 40rem;
+  background: url("/posts/images/kebab-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title button {
+  margin-top: 4rem;
+}
