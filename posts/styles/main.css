@@ -117,6 +117,7 @@ nav ul {
   margin: auto;
   padding: 5rem 0rem;
   display: flex;
+  flex-wrap: wrap;
   background-color: rgba(255, 253, 200, 0.1);
   border-radius: 1rem;
 }
