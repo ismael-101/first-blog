@@ -1,7 +1,7 @@
 .hero-post-1 {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("/posts/images/shawarma-2.jpg");
+    url("/posts/images/shawarma-2-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
 }
 .img {
     flex: 1 1 40rem;
-    background: url("/posts/images/shawarma-2.jpg");
+    background: url("/posts/images/shawarma-2-min.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
