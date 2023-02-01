@@ -21,10 +21,16 @@ button {
   text-decoration: none;
   font-size: 2rem;
   color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  transition: 0.3s;
 }
 li:hover {
   background-color: #a92711;
   padding: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  transition: 0.3s;
 }
 button {
   padding: 2rem 6rem;
@@ -33,9 +39,11 @@ button {
   cursor: pointer;
   font-weight: bold;
   border-radius: 0.5rem;
+  transition: 0.3s;
 }
 button:hover {
   background-color: #a92711;
+  transition: 0.3s;
 }
 h1 {
   font-size: 2.6rem;
@@ -51,7 +59,10 @@ h4,
 h5 {
   font-size: 2.8rem;
 }
-
+.logo:hover {
+  background-color: #a92711;
+  border-radius: 1rem;
+}
 /*header & hero section */
 
 .main-head {
@@ -198,8 +209,60 @@ footer ul {
   background: url("/posts/images/kebab-2-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .title button {
-  margin-top: 4rem;
+  margin: 4rem 0rem;
+}
+/*ayran page*/
+
+.ayran {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/posts/images/ayran-2-min.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-ayran {
+  background: url("/posts/images/ayran-2-min.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Shawarma page*/
+.shawarma {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/posts/images/shawarma-2-min.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-shawarma {
+  background: url("/posts/images/shawarma-2-min.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*contact page*/
+.contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/posts/images/cow-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  justify-content: top;
+  
+}
+.contact h1 {
+  padding-top: 20rem;
+  font-size: 7.6rem;
+}
+.contact button{
+   margin-top: 10rem;
+   font-size: 3.6rem;
+   
 }
