@@ -111,7 +111,7 @@ nav ul {
 /*cards section*/
 .food {
   background: linear-gradient(rgba(14, 0, 0, 0.8), rgba(14, 0, 0, 0.8)),
-    url("images/kebab-4-min.jpg");
+    url("../images/kebab-4-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -181,7 +181,7 @@ footer ul {
 .hero-post-1 {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("images/kebab-2-min.jpg");
+    url("../images/kebab-2-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -207,7 +207,7 @@ footer ul {
 
 .img {
   flex: 1 1 40rem;
-  background: url("images/kebab-2-min.jpg");
+  background: url("../images/kebab-2-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -220,13 +220,13 @@ footer ul {
 
 .ayran {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("images/ayran-2-min.jpg");
+    url("../images/ayran-2-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .img-ayran {
-  background: url("images/ayran-2-min.jpg");
+  background: url("../images/ayran-2-min.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,13 +235,13 @@ footer ul {
 /*Shawarma page*/
 .shawarma {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("images/shawarma-2-min.jpg");
+    url("../images/shawarma-2-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .img-shawarma {
-  background: url("images/shawarma-2-min.jpg");
+  background: url("../images/shawarma-2-min.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -251,7 +251,7 @@ footer ul {
 .contact {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("images/cow-min.jpg");
+    url("../images/cow-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
